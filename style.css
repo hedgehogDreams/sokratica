@@ -164,11 +164,21 @@ body {
     width: 90%;
     position: relative;
   }
+  .info__trans-arrow {
+    top: 7px;
+    left: 7px;
+  }
   .desc__greetings,
   .desc__title {
     margin-bottom: 15px;
   }
   .desc__desc {
     margin-bottom: 35px;
+  }
+}
+@media (max-width: 430px) {
+  .container {
+    max-width: 100%;
+    padding: 0 10px;
   }
 }
